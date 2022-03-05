@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="307dp"
+        android:layout_height="33dp"
+        android:autoSizeTextType="uniform"
+        android:text="Pick a mental healt goal"
+        android:textColor="#494949"
+        android:textStyle="bold"
+        app:autoSizeMaxTextSize="200sp"
+        app:autoSizeStepGranularity="4sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="197dp"
+        android:layout_height="18dp"
+        android:autoSizeTextType="uniform"
+        android:text="Tell us how we can help you,"
+        android:textColor="#494949"
+        app:autoSizeMaxTextSize="200sp"
+        app:autoSizeStepGranularity="4sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.095" />
+
+    <TableRow
+        android:id="@+id/bg1"
+        android:layout_width="296dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.208">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="-12dp"
+            android:layout_marginTop="-20dp"
+            android:src="@drawable/bg1a" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="40dp"
+            android:autoSizeTextType="uniform"
+            android:text="Overcoming Depression"
+            android:textColor="#235482"
+            android:textStyle="bold"
+            app:autoSizeMaxTextSize="200sp"
+            app:autoSizeStepGranularity="4sp"></TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/bg2"
+        android:layout_width="296dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="-12dp"
+            android:layout_marginTop="-30dp"
+            android:src="@drawable/bg2a" />
+
+        <TextView
+            android:layout_width="119dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="40dp"
+            android:autoSizeTextType="uniform"
+            android:text="Beating Anxiety"
+            android:textColor="#235482"
+            android:textStyle="bold"
+            app:autoSizeMaxTextSize="200sp"
+            app:autoSizeStepGranularity="4sp"></TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/bg3"
+        android:layout_width="296dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.695">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="-12dp"
+            android:src="@drawable/bg3a" />
+
+        <TextView
+            android:layout_width="117dp"
+            android:layout_height="51dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:autoSizeTextType="uniform"
+            android:text="Tackling Stress"
+            android:textColor="#235482"
+            android:textStyle="bold"
+            app:autoSizeMaxTextSize="200sp"
+            app:autoSizeStepGranularity="2sp"></TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/bg4"
+        android:layout_width="296dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.934">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="-12dp"
+            android:layout_marginTop="-28dp"
+            android:src="@drawable/bg4a" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="40dp"
+            android:autoSizeTextType="uniform"
+            android:text="Sleeping Better"
+            android:textColor="#235482"
+            android:textStyle="bold"
+            app:autoSizeMaxTextSize="200sp"
+            app:autoSizeStepGranularity="4sp"></TextView>
+    </TableRow>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2F1FF"
+    tools:context=".GetActivity">
+
+
+    <ImageView
+        android:id="@+id/splash"
+        android:layout_width="292dp"
+        android:layout_height="286dp"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.327"
+        app:srcCompat="@drawable/splash" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="80dp"
+        android:layout_height="26dp"
+        android:layout_marginBottom="12dp"
+        android:text="It’s time to "
+        android:textColor="#235482"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.125"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="148dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="12dp"
+        android:autoSizeTextType="uniform"
+        android:text="feel better "
+        android:textColor="#235482"
+        android:textStyle="bold"
+        app:autoSizeMaxTextSize="200sp"
+        app:autoSizeStepGranularity="4sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.132" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="204dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="56dp"
+        android:autoSizeTextType="uniform"
+        android:text="We are helping 1 million+ user "
+        android:textColor="#235482"
+        app:autoSizeMaxTextSize="200sp"
+        app:autoSizeStepGranularity="4sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="137dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="34dp"
+        android:autoSizeTextType="uniform"
+        android:text="beat anxiety "
+        android:textColor="#235482"
+        android:textStyle="bold"
+        app:autoSizeMaxTextSize="200sp"
+        app:autoSizeStepGranularity="4sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.757" />
+
+    <Button
+        android:id="@+id/btn1get"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:background="@drawable/custom1"
+        android:text="Get Started"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.585"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.832"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextPostalAddress"
+        android:layout_width="212dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="18dp"
+        android:autoSizeTextType="uniform"
+        android:ems="1"
+        android:inputType="textPostalAddress"
+        android:text="I ALREADY HAVE AN ACCOUNT"
+        android:textColor="#235482"
+        android:textSize="14dp"
+        android:textStyle="normal"
+        app:autoSizeMaxTextSize="100sp"
+        app:autoSizeStepGranularity="2sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.912" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
